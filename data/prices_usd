@@ -1,0 +1,3 @@
+sku_code,amount_cents,compare_at_amount_cents,currency_code
+SKU1,1000,2000,USD
+SKU2,2000,3000,USD
