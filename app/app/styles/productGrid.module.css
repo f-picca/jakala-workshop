@@ -1,0 +1,57 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-bottom: 90px;
+  }
+  
+  .wrapper .product {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid #eee;
+    padding: 1em;
+    background-color: rgb(255, 255, 255, 1);
+  }
+  
+  .wrapper .product:hover {
+    border: 1px solid #fff;
+    box-shadow: 0 5px 40px rgba(0, 0, 0, 0.3);
+  }
+  
+  .wrapper .product img {
+    overflow: hidden;
+  
+  }
+  
+  .wrapper .product .productName {
+    margin: 1em 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .wrapper .product cl-add-to-cart {
+    cursor: pointer;
+    margin-top: auto;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+  
+  .wrapper .product .btn-buy:hover {
+    background-color: #fff;
+    color: #369;
+  }
+
+  .wrapper .product .actualPriceInfo {
+    font-weight: bold;
+  }
+
+  .wrapper .product .strikethroughPriceInfo{
+    font-style: italic;
+    text-decoration-line: line-through; 
+  }
+
+  

@@ -1,0 +1,13 @@
+[{
+    "code" : "GAME_DAY_PASS",
+    "name" : "Game Day Pass",
+    "description" : "GO Transit is proud to offer flat rate passes on Blue Jays Game Day! The Game Day pass is valid for unlimited travel across the GO Transit network for $10. This includes as many stopovers as you like, on a single Saturday, Sunday, or holiday. These passes are only available to purchase online. Special flat-fare tickets, including the Weekend Pass and Weekend Day Pass for unlimited travel, are not eligible for our Service Guarantee refunds.",
+    "image" : "https://images.dailyhive.com/20200811113216/shutterstock_750661078.jpg",
+    "isBundle": false
+},{
+    "code" : "BLUEJAYS_GAMEDAY_PACK",
+    "name" : "Blue Jays Hat and ride!",
+    "description" : "Game day offer, including a GAME DAY PASS and the official BLUE JAYS HAT to show your colours around!",
+    "image" : "gameweekendbundle.jpeg",
+    "isBundle": true
+}]

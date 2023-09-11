@@ -1,0 +1,49 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+body,
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(236, 236, 236, 1);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+header {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-rows: 1fr;
+  color: white;
+
+  align-items: center;
+
+}
+
+header #left {
+  margin:10px
+}
+
+header #right {
+  text-align: right;
+  margin-right: 10px;
+
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 50px;
+  background-color: black;
+  color: #fff;
+  vertical-align: middle;
+}
+
+footer #text {
+  margin: 10px
+}

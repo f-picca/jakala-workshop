@@ -1,0 +1,16 @@
+.herotext{
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #eee;
+    padding: 1em;
+    background-color: rgb(255, 255, 255, 1);
+    text-align: justify;
+    display: block;
+    overflow: auto;
+  }
+  
+  .herotext img {
+    float: right;
+    margin: 9px;
+  }
