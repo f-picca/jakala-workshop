@@ -8,6 +8,12 @@ const nextConfig = {
           port: '',
           pathname: '/v3/assets/**',
         },
+        {
+          protocol: 'https',
+          hostname: 'res.cloudinary.com',
+          port: '',
+          pathname: '/dvbqso85l/image/upload/**',
+        },
       ],
     },
   }

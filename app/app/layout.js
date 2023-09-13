@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Metrolinx PoC',
-  description: 'A simple next.js application using contentstack for content and product management',
+  title: 'Commerce Layer + Jakala Workshop',
+  description: 'A simple next.js application that shows how to integrate with commerce layer!',
 }
 
 export default function RootLayout({ children }) {

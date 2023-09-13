@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import HeroBanner from "./components/HeroBanner";
 import ProductGrid from "./components/ProductGrid";
 import CommerceLayerAuth from "./providers/CommerceLayerAuthProvider";
-
+import products from "./products.json";
 export default async function Home() {
   const products = await getAllProducts();
   const heroBannerContent = await getHeroBanner();
@@ -15,7 +15,7 @@ export default async function Home() {
       slug={process.env.COMMERCELAYER_ORGANISATION_SLUG}
       market="13719"
     >
-      <Header cartLabel="Go To Cart" />
+      <Header cartLabel="🛒" />
       <HeroBanner content={heroBannerContent} />
       <ProductGrid products={products} />
       <Footer />
@@ -23,6 +23,24 @@ export default async function Home() {
   );
 }
 
+async function getHeroBanner() {
+  const content = {
+      "title" : "Welcome to our record store",
+      "text" : "this is some hardcoded content!",
+      "image" : {
+        "url" : "/vinyl-black.png",
+        "description" : "a nice image"
+      }
+  }
+  
+  return content;
+}
+
+async function getAllProducts(){
+  return products;
+}
+
+/* contentstack version
 async function getHeroBanner() {
   try {
     const Stack = Contentstack.Stack({
@@ -38,7 +56,9 @@ async function getHeroBanner() {
     console.log(error);
     return null;
 }}
+*/
 
+/* contentstack version
 async function getAllProducts() {
   try {
     const Stack = Contentstack.Stack({
@@ -55,4 +75,4 @@ async function getAllProducts() {
     return null;
   }
 }
-
+*/

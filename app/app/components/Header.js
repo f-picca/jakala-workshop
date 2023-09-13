@@ -11,14 +11,14 @@ function Header(props) {
         <header id="header">
         <div id="left">
             <Image 
-                src="/metrolinx_logo.png"
-                width={200}
+                src="/combined_logos.jpg"
+                width={180}
                 height={80}
-                alt="Metrolinx"
+                alt="Commerce Layer + Jakala"
             />
         </div>
         <div id="right">
-                <CartLink className="btn btn-dark rounded-pill px-3" label={props.cartLabel} />&nbsp;
+                <CartLink className="btn btn-light rounded-pill px-3" label={props.cartLabel} />&nbsp;
                 <LineItemsContainer>
                     <LineItemsCount className="btn btn-dark rounded-pill px-3" />
                 </LineItemsContainer>
