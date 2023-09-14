@@ -52,8 +52,3 @@
     1. First we create an sku list containing SKU2 named 10% off promo items
     2. Go to promotions, new Promotion, Percentage Discount
     3. Set the promo name “10% off”, market “Europe”, Percentage “10”, and use the sku list for both products and activation rules
-    
-
-## Second Part - Sample Frontend application with Next.js
-
-🛒
