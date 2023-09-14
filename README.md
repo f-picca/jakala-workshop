@@ -5,7 +5,7 @@
 - **Architectural intro [approx 30m]**
 - **Commercelayer 101 (approx 1h)**
     1. Diving into commerce layer (CLI + Dashboard):
-    2. Setting up commerce layer environment
+    2. Setting up commerce layer environment ([step by step instructions](https://github.com/f-picca/react-workshop/tree/master/data))
     3. creating markets
     4. set up skus, prices and inventory
     5. create configurations to start selling
