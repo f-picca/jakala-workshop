@@ -12,7 +12,7 @@ function Header(props) {
         <div id="left">
             <Image 
                 src="/commercelayer_glyph_black.png"
-                width={180}
+                width={80}
                 height={80}
                 alt="Commerce Layer + Jakala"
             />
