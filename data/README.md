@@ -6,7 +6,7 @@
     1.  `npm install -g @commercelayer/cli`
 4. (Terminal) connect to the organisation with settings from the CLI app
     1. `cl app:login -a outer456 -o outerorbit-456 -i teFKNQTBI5Mzr0k-2_G03VPsVFObrnQELTSlr8Doq9g -s Nf96WQS8PTTptfJxIfbeU9KQAvZ38w5sllNdju7Fw8Q`
-5. clone workshop assets from [git@github.com](mailto:git@github.com):f-picca/jakala-workshop.git
+5. clone workshop assets from [git@github.com](mailto:git@github.com):f-picca/react-workshop.git
 6. (Browser) Enter the dashboard and see the initial screen with all the steps to set up an org
 7. (Browser) create a merchant with an address
 8. (Terminal) install the `resources` plugin `commercelayer plugins:install resources`
