@@ -11,7 +11,7 @@
     5. create configurations to start selling
 - **Break**
 - **Building a frontend application (approx 1h30m)**
-    1. creating a frontend application
+    1. creating a frontend application ([step by step instructions](https://github.com/f-picca/react-workshop/tree/master/app))
     2. using next.js and react to build a sample commerce application
     3. [optional] connecting to a cms to integrate content
 
